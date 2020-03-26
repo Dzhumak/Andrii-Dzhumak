@@ -1,3 +1,5 @@
+#te globalne też powinny być zdefiniowane w setupie
+
 global side
 side = 100    
 
@@ -45,3 +47,5 @@ def draw():
 
 def mousePressed():
     exit()
+    
+# 2pkt

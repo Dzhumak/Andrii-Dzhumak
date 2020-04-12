@@ -46,4 +46,6 @@ def draw():
     s.endShape(CLOSE) 
     shape(s,-20,0)
 
-        
+# 1,75
+# strzałki nie powinny działać same, a przenosić zaznaczenie z zaznaczonej litery na drugą
+# zgabnie napisane

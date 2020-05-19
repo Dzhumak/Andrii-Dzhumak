@@ -25,3 +25,6 @@ def setup():
     cyborg.show_robots_specs()
     
     print(Robots.robots_quantity)
+    
+# o to chodziło, chociaż fajnie by było, jakby jeszcze jakaś metoda je wyrysowała
+# 2pkt

@@ -2,7 +2,7 @@ add_library('pdf')
 
 def setup():
     global img, t1, t2
-    size(400, 400)
+    size(400, 400) # to nie są proporcje zdjęcia dokumentowego
     
     textAlign(CENTER)
     textSize(32)
@@ -25,19 +25,22 @@ def draw ():
     text("Press and hold for mod-type 2", 50, 250, 300, 100)
 
 #---------Services menu------ 
-    
-    #-----Type1--------------
-    if mousePressed and (mouseButton == LEFT) and (50 < mouseX < 350) and (50 < mouseY < 150):
+
+    if mousePressed and (mouseButton == LEFT):
         clear()
-        beginRecord(PDF, "BillType1.pdf")
-        image(img, 0,0, height, width)
-        image(t1, 100, 230, width / 2, height / 2)
-        endRecord()
     
-    #-----Type2--------------
-    elif mousePressed and (mouseButton == LEFT) and (50 < mouseX < 350) and (250 < mouseY < 350):
-        clear()
-        beginRecord(PDF, "BillType2.pdf")
-        image(img, 0,0, height, width)
-        image(t2, 100, 230, width / 2, height / 4)
+        #-----Type1--------------
+        if (50 < mouseX < 350) and (50 < mouseY < 150):
+            beginRecord(PDF, "BillType1.pdf")
+            image(img, 0,0, height, width)
+            image(t1, 100, 230, width / 2, height / 2)
+        
+        #-----Type2--------------
+        elif (50 < mouseX < 350) and (250 < mouseY < 350):
+            beginRecord(PDF, "BillType2.pdf")
+            image(img, 0,0, height, width)
+            image(t2, 100, 230, width / 2, height / 4)
+       
         endRecord()
+
+# 2 pkt i plus do altywnosci za estetykę kodu i ładnie pomyślane mini UI

@@ -17,6 +17,8 @@ class PasiastyKwadrat(Kwadrat):
             line(x+_xLinii_, y, x+_xLinii_, y+self.bok)
             _xLinii_ +=space
             
+# 2pkt
+            
 class KwadratKolorowy (Kwadrat, PasiastyKwadrat):
     
     def sketchKolorowy(self, x, y, r, g, b):

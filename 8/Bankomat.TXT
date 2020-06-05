@@ -1,0 +1,40 @@
+class Bankomat
+ baza_danych_klientów //kolekcja
+logowanie()
+ sprawdz_wprowadzone_dane_według_bazy()
+ numer_konta
+ pin
+pokaż_opcji()
+wypłacić()
+suma
+balans
+wpłacić()
+suma
+balans
+transfer()
+suma
+balans
+numer_konta_transfer
+sprawdz_stan_konta()
+balans
+wyloguj()
+
+class Klient
+ balans
+wprowadz_dane_logowania()
+ numer_konta
+ pin
+wypłata()
+ suma
+wpłata()
+ suma
+transfer()
+ suma
+ numer_konta_transfer
+pokaż_stan_konta()
+ balans
+zakończ_działanie()
+
+
+
+

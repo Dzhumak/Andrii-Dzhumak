@@ -1,0 +1,7 @@
+Skłep 'Media Expert'
+Klient dzwoni do skłepu i składa zomówienie. 
+Klient: poproszę dodać do mojej listy zamówień konsolę do gier.
+Operator w call center: towar zostanie dodany do Pana koszyka, dziękuje Panu za zamówienie.
+Operator nadsyła zlecenie działu zajmującym się obsługą klientów, za czym informacja nadchodzi do magazynu sklepowego, gdzie towar zostanie przekazany kurierowi.
+WZORZEC: fasada
+DLACZEGO: gdy klient dzwoni do sklepu i składa zamówienie, obsługa klienta przez operatora jest fasadą dla wszystkich usług i działów sklepu. Zapewnia uproszczony interfejs do systemu tworzenia zamówień, systemu płatności i działu dostaw.

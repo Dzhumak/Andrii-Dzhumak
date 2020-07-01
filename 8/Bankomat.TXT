@@ -1,5 +1,6 @@
 class Bankomat
- baza_danych_klientów //kolekcja
+ baza_danych_klientów //kolekcja - to powinno być w banku, a nie bankomacie, bankomat tylko się łączy by dostaćinformację, czy taki klient istnieje
+# brakuje ile pieniędzy i w jakich nominałąch przechowuje bankomat
 logowanie()
  sprawdz_wprowadzone_dane_według_bazy()
  numer_konta
@@ -19,7 +20,7 @@ sprawdz_stan_konta()
 balans
 wyloguj()
 
-class Klient
+class Klient # jeden kient móże ieć wiele kont, lepsza w tym miejscu byłaby karta lub konto
  balans
 wprowadz_dane_logowania()
  numer_konta
@@ -34,6 +35,8 @@ transfer()
 pokaż_stan_konta()
  balans
 zakończ_działanie()
+
+1/1,5pkt za tą część
 
 
 

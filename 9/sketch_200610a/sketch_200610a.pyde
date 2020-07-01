@@ -19,9 +19,11 @@ def draw():
     image(img, width/2, height/2)
   except:
     stroke(255, 0, 0)
-    rect (width/2,height/2,500,375)
     text("Brak pliku lub blad wczytywania", width/2, height/2)
   else:
     stroke(0, 0, 255)
-    rect (width/2,height/2,500,375)
     image(img, width/2, height/2)
+  finally:
+    rect (width/2,height/2,500,375)
+    
+# 1,75pkt

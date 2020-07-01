@@ -5,3 +5,6 @@ Operator w call center: towar zostanie dodany do Pana koszyka, dziękuje Panu za
 Operator wysyła zlecenie do działu zajmującego się obsługą klientów, po czym informacja przechodzi do magazynu sklepowego, gdzie towar zostanie przekazany kurierowi.
 WZORZEC: fasada
 DLACZEGO: gdy klient dzwoni do sklepu i składa zamówienie, obsługa klienta przez operatora jest fasadą dla wszystkich usług i działów sklepu. Zapewnia uproszczony interfejs do systemu tworzenia zamówień, systemu płatności i działu dostaw.
+
+Rozumiem zamysł i jest on prawidłowy, tylko niedostatecznie podkreślony i koledzy po części źle ocenili. WArto było wspomnieć ten system w dialogu, że coś przeszukuje w bazie danych itd.
+1,25pkt
